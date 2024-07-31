@@ -22,5 +22,3 @@ export function acessLogin() {
     cy.get(pO2.divForm)
         .should('contain', pO2.tRegister)
 }
-
-
